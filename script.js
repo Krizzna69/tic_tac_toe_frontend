@@ -1,7 +1,7 @@
 // Connect to the server
 
 
-const socket = io('http://localhost:3000', {
+const socket = io('https://tic-tac-toe-server-lkwt.onrender.com', {
   withCredentials: true,
   transports: ['websocket', 'polling'],
   reconnectionAttempts: 5,
